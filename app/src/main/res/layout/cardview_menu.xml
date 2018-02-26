@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_location"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/m_1"
+    cardview:cardCornerRadius="@dimen/cardview_radio"
+    android:layout_margin="@dimen/m_1"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/p_2">
+
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:src="@drawable/cerro"
+            android:layout_width="@dimen/photogrid_size"
+            android:layout_height="@dimen/photogrid_size"
+            android:scaleType="centerCrop"
+            android:layout_margin="@dimen/m_1"
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

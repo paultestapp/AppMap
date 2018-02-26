@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="m_1">5sp</dimen>
+    <dimen name="m_2">10sp</dimen>
+    <dimen name="m_3">25sp</dimen>
+
+    <dimen name="p_1">5sp</dimen>
+    <dimen name="p_2">10sp</dimen>
+    <dimen name="p_3">25sp</dimen>
+
+    <dimen name="layout_padding">10dp</dimen>
+    <dimen name="cardview_radio">10dp</dimen>
+    <dimen name="photogrid_size">120dp</dimen>
+</resources>
